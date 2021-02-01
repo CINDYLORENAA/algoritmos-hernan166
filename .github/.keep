@@ -1,0 +1,36 @@
+Para calcular el volumen del cilindro 
+Algoritmo volumendelcilindro
+	Escribir "digite diametro del cilindro"
+	leer diametro
+	Escribir " el radio corresponde a " diametro/2 " metros "
+	Escribir "digite la altura del cilindro"
+	leer altura
+	escribir " el volumen del cilindro es " 3.14*diametro/2*altura " centrimetros cubidos "
+FinAlgoritmo
+
+Para calcular el area del cilindro 
+Algoritmo Areadeuncilindro
+	Escribir "digite diametro del cilindro"
+	leer diametro
+	Escribir " el radio corresponde a " diametro/2 " metros "
+	Escribir "digite la altura del cilindro"
+	leer altura
+	Escribir " el area del cilindro es " 2*3.14*diametro/2*(diametro/2+altura) " centrimetros cuadrados "	
+FinAlgoritmo
+
+Para calcular el promedio ponderado 
+Algoritmo promediopnderado
+	Escribir "Digite la nota del primer parcial "
+ 	leer numero
+	Escribir " Su primera nota del parcial equivale a  25% " numero* 0.25 " del total de la nota final "   
+	Escribir "Digite la nota del segundo parcial "
+ 	leer numero1
+	Escribir " Su segunda  nota del parcial equivale a   25% " numero1* 0.25 " del total de la nota final " 
+	Escribir  " Su nota de participacion en clase "
+	leer numero2
+	escribir " Su nota de participacion en clase es  20 % " numero2*0.20 " del total de la nota final "
+	escribir " Digite la nota del parcial final "
+	leer numero3
+	escribir " Su nota del parcial final equivale a 30 % " numero3*0.30 " del total de la nota final "
+	escribir  " Su nota total de la materia equivale " numero*0.25+numero1*0.25+numero2*0.20+numero3*0.30 " felicitaciones Amigo"  
+FinAlgoritmo
